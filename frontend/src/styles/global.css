@@ -71,6 +71,40 @@ button {
   cursor: pointer;
 }
 
+/* Global Layout & Spacing */
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 6rem 5vw; /* Adjusted from 120px to scale better */
+  scroll-margin-top: 100px; /* Fix navbar overlap */
+  min-height: auto; /* Remove arbitrary min-heights */
+}
+
+/* Common container to keep content centered with a max-width */
+.section-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Layout Utilities */
+.section-divider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  background-color: var(--bg-primary);
+}
+
+.divider-line {
+  width: 1px;
+  height: 80px;
+  background-color: var(--text-primary);
+  opacity: 0.15;
+}
+
 /* Accessibility for Reduced Motion */
 @media (prefers-reduced-motion: reduce) {
   * {

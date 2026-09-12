@@ -9,7 +9,7 @@ const Hero = () => {
     <section className="hero-section" id="hero">
       <FloatingSymbols />
       
-      <div className="hero-container">
+      <div className="section-container hero-container">
         
         {/* Left/Main Content Column */}
         <div className="hero-content">
@@ -50,7 +50,7 @@ const Hero = () => {
                 className="profile-image"
                 onError={(e) => {
                   e.target.onerror = null; 
-                  e.target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 400 500'%3E%3Crect fill='%23E8B84A' width='400' height='500'/%3E%3Ctext fill='%231D1D1B' font-family='monospace' font-size='14' x='50%25' y='50%25' text-anchor='middle'%3EIMAGE PLACEHOLDER%3C/text%3E%3C/svg%3E";
+                  e.target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 400 500'%3E%3Crect fill='%23F7F3EA' width='400' height='500'/%3E%3Crect fill='none' stroke='%231D1D1B' stroke-width='2' x='20' y='20' width='360' height='460'/%3E%3Ctext fill='%231D1D1B' font-family='serif' font-size='120' font-weight='300' x='50%25' y='50%25' text-anchor='middle' dominant-baseline='middle'%3EYS%3C/text%3E%3C/svg%3E";
                 }}
               />
             </div>
