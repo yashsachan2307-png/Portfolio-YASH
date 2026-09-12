@@ -13,9 +13,11 @@ const Experience = () => {
       location: 'NEW DELHI',
       date: 'JUN 2026 — AUG 2026',
       description: [
-        'Project: Implementation of Digital Communication Protocols Using Verilog HDL'
+        'Designed and implemented digital logic modules using Verilog HDL for FPGA/ASIC-oriented applications.',
+        'Developed, simulated, and verified digital circuits using industry-standard EDA tools, ensuring functional correctness through comprehensive testbenches.',
+        'Collaborated with mentors on digital design workflows, coding standards, and documentation within a research-oriented environment.'
       ],
-      techLabels: ['Verilog HDL', 'UART', 'SPI', 'I²C', 'RTL Design', 'FSM Design', 'Simulation / Verification']
+      techLabels: ['Verilog HDL', 'FPGA/ASIC', 'EDA Tools', 'Testbenches', 'Digital Design', 'Simulation']
     }
   ];
 

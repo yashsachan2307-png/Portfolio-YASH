@@ -23,9 +23,14 @@ const Contact = () => {
         </div>
 
         <div className="contact-actions fade-in-up delay-2">
-          <a href="mailto:yashsachan@example.com" className="contact-button">
+          <a href="mailto:yashsachan2307@gmail.com" className="contact-button">
             SAY HELLO →
           </a>
+          
+          <div style={{ marginTop: '2rem', display: 'flex', gap: '2rem', justifyContent: 'center' }}>
+            <a href="https://www.linkedin.com/in/yash-sachan-b1070a314" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'var(--font-mono)', fontSize: '0.8rem', color: 'var(--text-primary)', opacity: '0.8' }}>LINKEDIN ↗</a>
+            <a href="https://github.com/yashsachan2307-png" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'var(--font-mono)', fontSize: '0.8rem', color: 'var(--text-primary)', opacity: '0.8' }}>GITHUB ↗</a>
+          </div>
         </div>
 
       </div>
