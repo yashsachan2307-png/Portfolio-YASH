@@ -14,7 +14,7 @@ const Education = () => {
       <div className="education-container">
         
         <div className="education-header">
-          <span className="section-meta">EDUCATION / 02</span>
+          <span className="section-meta">EDUCATION / 03</span>
           <h2 className="education-title">"The foundation I'm building on."</h2>
         </div>
 

@@ -15,16 +15,13 @@ const About = () => {
         
         {/* Left Column: Statement & Details */}
         <div className="about-left">
-          <div className="about-header">
-            <span className="section-number">01</span>
-            <h2 className="section-title">ABOUT</h2>
+          <div className="about-header" style={{ marginBottom: '2rem' }}>
+            <span className="section-meta">ABOUT / 01</span>
           </div>
           
           <div className="about-statement-wrapper">
             <p className="about-statement">
-              "Building things that work.<br />
-              Learning every day.<br />
-              Aiming to become a strong software engineer."
+              "Building things that work. Learning every day. Aiming to become a strong software engineer."
             </p>
           </div>
 

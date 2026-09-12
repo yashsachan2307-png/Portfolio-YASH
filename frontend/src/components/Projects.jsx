@@ -8,21 +8,21 @@ const Projects = () => {
   const projects = [
     {
       id: '01',
-      title: 'PROJECT NAME 1',
-      type: 'FULL STACK DEVELOPMENT',
-      description: 'A brief description of what this project does and the problem it solves. Replace with actual project details.',
-      techStack: ['Java', 'Spring Boot', 'React', 'PostgreSQL'],
-      liveLink: '#',
-      githubLink: '#'
+      title: 'DevPilot',
+      type: 'AI ENGINEERING AGENT & RAG PLATFORM',
+      description: 'An advanced AI Engineering Agent and Repository Intelligence platform. Combines deterministic AST parsing with an autonomous AI agent (Gemini) to understand, debug, and refactor codebases safely. Includes semantic codebase search powered by pgvector and static security analysis.',
+      techStack: ['Java', 'Spring Boot', 'React', 'TypeScript', 'PostgreSQL (pgvector)', 'Gemini API'],
+      liveLink: 'https://ai-engineering-co-pilot-dev-pilot.vercel.app',
+      githubLink: 'https://github.com/yashsachan2307-png/AI-Engineering-Co-Pilot-DevPilot-'
     },
     {
       id: '02',
-      title: 'PROJECT NAME 2',
-      type: 'BACKEND SYSTEM',
-      description: 'A brief description of what this project does and the problem it solves. Replace with actual project details.',
-      techStack: ['Java', 'REST API', 'Docker'],
+      title: 'REVENUE//RECOVERY',
+      type: 'AI-POWERED FINANCIAL INFRASTRUCTURE',
+      description: 'AI-driven deterministic payment recovery platform. Acts as an autonomous agent that contextually understands why a payment failed and orchestrates the safest, most effective path to recovering funds under strict policy guardrails.',
+      techStack: ['TypeScript', 'Gemini API', 'Policy Engine', 'Synthetic Evaluation'],
       liveLink: '#',
-      githubLink: '#'
+      githubLink: 'https://github.com/yashsachan2307-png/Revenue-Recovery'
     }
   ];
 
@@ -61,8 +61,12 @@ const Projects = () => {
                 </div>
                 
                 <div className="project-links">
-                  <a href={project.liveLink} className="project-link">VIEW PROJECT →</a>
-                  <a href={project.githubLink} className="project-link">SOURCE CODE →</a>
+                  {project.liveLink && project.liveLink !== '#' && (
+                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link">VIEW PROJECT →</a>
+                  )}
+                  {project.githubLink && project.githubLink !== '#' && (
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">SOURCE CODE →</a>
+                  )}
                 </div>
               </div>
             </div>

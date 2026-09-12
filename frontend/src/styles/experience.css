@@ -88,7 +88,14 @@
 
 .exp-content {
   max-width: 800px;
-  padding-left: 2rem;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  margin-left: -1.5rem; /* Offset the new padding */
+  border-radius: 4px;
+  transition: background-color var(--transition-fast);
+}
+
+.exp-item:hover .exp-content {
+  background-color: rgba(29, 29, 27, 0.03);
 }
 
 .exp-meta {

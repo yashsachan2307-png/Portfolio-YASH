@@ -40,9 +40,9 @@ const Journey = () => {
     >
       <div className="journey-container">
         
-        <div className="journey-header">
-          <h2 className="journey-title">JOURNEY</h2>
-          <p className="journey-subtitle">"A work in progress."</p>
+        <div className="journey-header" style={{ marginBottom: '3rem' }}>
+          <span className="section-meta">JOURNEY / 02</span>
+          <h2 className="journey-title" style={{ marginTop: '1rem' }}>A work in progress.</h2>
         </div>
 
         <div className="timeline-container">

@@ -28,7 +28,7 @@ const Experience = () => {
       <div className="section-container experience-container">
         
         <div className="experience-header">
-          <span className="section-meta">EXPERIENCE / 05</span>
+          <span className="section-meta">EXPERIENCE / 04</span>
         </div>
 
         <div className="experience-timeline">
